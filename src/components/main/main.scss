@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.first-section {
+padding: 0 5%;
+  box-sizing: border-box;
+  background: linear-gradient(1deg, #026773, #012e40);
+  background-size: 400% 400%;
+
+  animation: gradient 25s ease infinite;
+    
+  @keyframes gradient {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+  }
+
+  h1{
+    // margin: 0;
+    // padding: 0;
+    font-size: 3rem;
+    color: #F2E3D5;
+  }
+
+  p{
+    // margin: 0;
+    // padding: 0;
+    font-size: 1.25rem;
+    text-align: left;
+    color: #F2E3D5;
+  }
+  img {
+    max-width: 100%;
+  }
+
+}
+
+// Color Theme Swatches in Hex
+// $Deep-Teal-Sea-1-hex: #012E40;
+// $Deep-Teal-Sea-2-hex: #024959;
+// $Deep-Teal-Sea-3-hex: #026773;
+// $Deep-Teal-Sea-4-hex: #3CA6A6;
+// $Deep-Teal-Sea-5-hex: #F2E3D5;
