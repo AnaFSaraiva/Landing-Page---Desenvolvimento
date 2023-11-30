@@ -1,13 +1,13 @@
 #head {
   box-sizing: border-box;
-  background-color: #012E40;
+  background-color: #012e40;
   padding: 15px 35px 15px 35px;
-  display: flex ;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: inset 2px 2px 2px #024959;;
+  // box-shadow: inset 2px 2px 2px #024959;;
 
-  img{
+  img {
     width: 15px;
     height: 15px;
     background-color: #026773;
@@ -17,29 +17,23 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    
-  // eslint-disable-next-line
-  // display: flex;
-  gap: 35px;
-  justify-content: end;
-  
-  font-size: 1.25em;
-  color:#F2E3D5;
-    
-  a {
-    text-decoration: none;
-    color: #F2E3D5;
 
-    &:hover {
-      color: #3CA6A6;
+    display: flex;
+    gap: 35px;
+    justify-content: flex-end;
+
+    font-size: 1rem;
+    color: #f2e3d5;
+
+    a {
+      text-decoration: none;
+      color: #f2e3d5;
+
+      &:hover {
+        color: #3ca6a6;
+      }
     }
-  
   }
-
-}
-
-
-
 }
 
 // Color Theme Swatches in Hex
