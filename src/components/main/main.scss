@@ -4,26 +4,37 @@
   padding: 0;
 }
 
-.first-section {
-  height: calc(100vh - 58px);
-  position: relative;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.main-section {
   padding: 0 5%;
-  box-sizing: border-box;
-  background: linear-gradient(1deg, #026773, #012e40);
-  background-size: 400% 400%;
+  background: linear-gradient(#012e40, #026773, #f2e3d5);
+  background-size: 100% 100%;
+  animation: gradient 25s infinite;
 
-  animation: gradient 25s ease infinite;
+  .first-section {
+    padding-top: 52px;
+    // height: calc(100vh - 52px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 
-  @keyframes gradient {
-    0% {
-      background-position: 0% 48%;
-    }
-    50% {
-      background-position: 100% 53%;
-    }
-    100% {
-      background-position: 0% 48%;
-    }
+  img {
+    align-self: center;
+    width: calc(414px - 10vw);
+    max-width: 100%;
   }
 
   h1 {
@@ -36,16 +47,20 @@
     text-align: left;
     color: #f2e3d5;
   }
-  img {
-    width: calc(414px - 10vw);
-    margin-right: 0;
-    max-width: 100%;
-  }
-}
 
-// Color Theme Swatches in Hex
-// $Deep-Teal-Sea-1-hex: #012E40;
-// $Deep-Teal-Sea-2-hex: #024959;
-// $Deep-Teal-Sea-3-hex: #026773;
-// $Deep-Teal-Sea-4-hex: #3CA6A6;
-// $Deep-Teal-Sea-5-hex: #F2E3D5;
+  .second-section {
+    padding-top: 52px;
+    // height: calc(100vh - 52px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  // Color Theme Swatches in Hex
+  // $Deep-Teal-Sea-1-hex: #012E40;
+  // $Deep-Teal-Sea-2-hex: #024959;
+  // $Deep-Teal-Sea-3-hex: #026773;
+  // $Deep-Teal-Sea-4-hex: #3CA6A6;
+  // $Deep-Teal-Sea-5-hex: #F2E3D5;
+}
