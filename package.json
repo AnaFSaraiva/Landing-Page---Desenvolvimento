@@ -14,6 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "iniciar": "tailwindcss -i ./src/index.css -o ./dist/index.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,7 +40,11 @@
   },
   "description": "Criação de uma Landing Page em React.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
   "author": "",
   "license": "ISC"
 }

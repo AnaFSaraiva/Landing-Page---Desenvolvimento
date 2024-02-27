@@ -1,0 +1,49 @@
+
+#head {
+  width: 100vw;
+  padding: 10px 35px;
+
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #012e40;
+  z-index: 2;
+}
+
+#head img {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    background-color: #026773;
+  }
+
+  nav {
+  display: flex;
+  gap: 35px;
+  justify-content: flex-end;
+
+  font-size: 1rem;
+  color: #f2e3d5;
+}
+
+a {
+  font-weight: 800;
+  text-decoration: none;
+  color: #f2e3d5;
+}
+
+a:hover,
+a:active {
+  color: #3ca6a6;
+}
+
+
+/* Color Theme Swatches in Hex
+ $Deep-Teal-Sea-1-hex: #012E40;
+ $Deep-Teal-Sea-2-hex: #024959;
+ $Deep-Teal-Sea-3-hex: #026773;
+ $Deep-Teal-Sea-4-hex: #3CA6A6;
+ $Deep-Teal-Sea-5-hex: #F2E3D5; */

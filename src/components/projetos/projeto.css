@@ -1,0 +1,16 @@
+.itemProjeto {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 10px;
+
+margin-bottom: 20px;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #F2E3D5;
+  text-decoration: wavy;
+}
